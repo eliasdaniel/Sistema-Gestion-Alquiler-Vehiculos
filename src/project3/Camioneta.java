@@ -27,10 +27,10 @@ public class  Camioneta extends Vehiculo implements IAlquiler{
 	}
 	//Overload method
 	public void alquilar(int carga) {
-		if(estado.equals("Disponible") && carga <= 100) {
+		if(estado.equals("Disponible") && carga <= capacidadCarga) {
 			estado = "Alquilado";
 			System.out.println("Solicitud Aprovada!");
-		}else if (estado.equals("Disponible") && carga > 100){
+		}else if (estado.equals("Disponible") && carga > capacidadCarga){
 			System.out.println("El vehiculo no cumple con la carga requerida!");
 		}else {
 			System.out.println("El vehiculo no esta disponible!");

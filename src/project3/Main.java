@@ -19,15 +19,10 @@ public class Main {
 		ag.agregarVehiculo( new Camioneta(85, 4312, "Chevrolet", "Silverado", 2025, "Disponible"));
 		ag.agregarVehiculo( new Camioneta(95, 2314, "Isuzu", "Prado", 2024, "Disponible"));
 		ag.agregarVehiculo( new Camioneta(105, 3432, "Toyota", "Hilux", 2026, "Disponible"));
-		
-		
-		//car1.mostrarInformacion();
-		//bus.mostrarInformacion();
+
 		ag.ejecutarMenu();
 	
 	}
-		
-		
 }
 
    

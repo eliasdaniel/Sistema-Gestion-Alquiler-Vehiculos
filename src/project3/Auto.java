@@ -53,7 +53,5 @@ public class Auto extends Vehiculo implements IAlquiler{
 				"| Matricula: "+matricula+ "| Marca: "+marca+
 				"| Modelo: " +modelo+"| Año: "+year+"| Estado: "+estado);
 	}
-	
-	
-	
+
 }
